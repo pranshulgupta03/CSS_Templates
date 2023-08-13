@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#nav-prt2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+
+#nav h1{
+    font-size: 28px;
+    color: red;
+}
+
+#nav-prt2 h5{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#nav-prt2 h6{
+    font-size: 16px;
+    margin-left: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#nav h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#content{
+    width: 100%;
+    height: calc(100% - 75px);
+    display: flex;
+    position: relative;
+    padding: 0 25px;
+}
+
+#part1{
+    height: 100%;
+    width: 45%;
+    padding-top: 130px;
+    padding-left: 100px;
+    position: relative;
+}
+
+#insight{
+    opacity: 0.6;
+    position: absolute;
+    top: 22%;
+    left: 19%;
+    font-family: poppins;
+}
+
+#insight h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#part2{
+    height: 100%;
+    width: 25%;
+    position: relative;
+}
+
+#part2 img{
+    height: 80%;
+    width: 90%;
+    border-radius: 3px;
+    position: absolute;
+    top: 9%;
+    left: 2%;
+}
+
+#part3{
+    height: 100%;
+    width: 30%;
+    padding-top: 90px;
+    padding-left: 65px;
+}
+
+#part3 h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 29px;
+    font-family: poppins;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#part3 span{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: red;
+}
+
+#part3 img{
+    height: 49%;
+    width: 62%;
+    margin-bottom: 50px;
+}
+
+#part1 h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 58px;
+}
+
+#inpart3{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    align-items: center;
+}
+
+#line{
+    width: 80px;
+    height: 2px;
+    background-color: white;
+}
+
+#part1 h1 span{
+    font-weight: 800;
+    color: red;
+}
+
+#part1 img{
+    height: 230px;
+    width: 200px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+#inpart1{
+    position: absolute;
+    top: 58%;
+    left: 350px;
+}
+
+#inpart1 h2{
+    font-family: poppins;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#inpart1 span{
+    font-weight: 700;
+    color: red;
+}
+
+#inpart1 h6{
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.7;
+}
