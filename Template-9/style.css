@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 200vh;
+    width: 100%;
+}
+
+.content{
+    height: 90%;
+    width: 98.5%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.left{
+    height: 98.5%;
+    width: 35%;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-top: 15px;
+    box-shadow: 0px 0px 6px black;
+}
+
+.left p{
+    font-size: 32px;
+    position: absolute;    
+    top: 23%;
+    left: 5%;
+    font-weight: 500;
+}
+
+.left i{
+    display: inline;
+    color: #009688;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 22px;
+    margin-right: 0px;
+}
+
+.left h3{
+    display: inline-block;
+    margin: 10px 18px;
+    opacity: 0.7;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.left hr{
+    opacity: 0.5;
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left progress{
+    width: 90%;
+    margin-left: 18px;
+    height: 25px;
+    border: 1px solid rgb(194, 191, 191);
+    margin-top: 5px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    /* color: white !important; */
+    /* background-color:#009688; */
+}
+
+progress::-webkit-progress-bar{
+    border-radius: 25px;
+    background-color: white;
+}
+
+progress::-webkit-progress-value{
+    border-radius: 25px;
+    background-color: #009688;
+}
+
+.left h2{
+    display: inline-block;
+    margin: 24px 10px;
+    opacity: 0.8;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.right{
+    height: 99%;
+    width: 65%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;  
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.right hr{
+    opacity: 0.5;
+}
+
+.rtop{
+    height: 49.5%;
+    width: 100%;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px black;
+}
+
+.rtop h1{
+    font-size: 30px;
+    font-weight: 600;
+    opacity: 0.6;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.work-logo{
+    color: #009688;
+    font-size: 35px;
+}
+
+.rtbox h2{
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.6;
+} 
+
+.rtbox span{
+    background-color: #009688;
+    height: 16px;
+    width: 74px;
+    padding: 4px 8px; 
+    color: white;
+    border-radius: 4px;
+}
+
+.rtbox h3{
+    display: inline-block;
+    font-size: 17px;
+    color: #009688;
+    font-weight: 540;
+}
+
+.rtbox p{
+    font-size: 16px;
+    font-weight: 540;
+}
+
+.rtbox i{
+    display: inline-block;
+    font-size: 20px;
+    color: #009688;
+    margin-right: 13px;
+}
+
+.rtbox-3{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    justify-content: center;
+}
+
+.rtbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 21%;
+}
+
+.rbottom{
+    height: 49.5%;
+    width: 100%;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px black;
+}
+
+.rbottom h1{
+    font-size: 30px;
+    font-weight: 600;
+    opacity: 0.6;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.education-logo{
+    color: #009688;
+    font-size: 35px;
+}
+
+.rbbox h2{
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.6;
+} 
+
+.rbbox h3{
+    display: inline-block;
+    font-size: 17px;
+    color: #009688;
+    font-weight: 540;
+}
+
+.rbbox p{
+    font-size: 16px;
+    font-weight: 540;
+}
+
+.rbbox i{
+    display: inline-block;
+    font-size: 20px;
+    color: #009688;
+    margin-right: 13px;
+}
+
+.rbbox-3{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    justify-content: center;
+}
+
+.rbbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 21%;
+}
+
+.footer{
+    height: 9%;
+    width: 100%;
+    background-color: #009688;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer p{
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer span{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer i{
+    color: white;
+    font-size: 18px;
+}
+
+.footer i:hover{
+    opacity: 0.7;
+}
